@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biojava3-aa-prop"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biojava3-alignment"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biojava3-core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biojava3-genome"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biojava3-modfinder"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biojava3-phylo"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biojava3-protein-disorder"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biojava3-sequencing"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biojava3-structure"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biojava3-structure-gui"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biojava3-ws"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/integrationtest"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/protein-comparison-tool"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

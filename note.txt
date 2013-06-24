@@ -1,0 +1,37 @@
+Save the results as:
+
+	Pair -> PDB -> ResultDatum
+
+Where ResultDatum contains for both from and to:
+
+	- Atom element
+	- Atom name
+	- Group name
+	- Chain id
+	- Residue number
+	- Insertion code
+
+All optionally variable.
+
+To deal with cases of specifying groups, as in cases of:
+
+	Ligand's C -- 3.2-5.0 -- HIS's N
+	   |--------- 2.2-3.6 -- LYS's O
+
+Or far worse, do as follows:
+
+	1. Find all protein matches based on distances; if a protein don't have
+	a particular pair desired (i.e. no ligand's C to HIS's N at that range)
+	then we exclude that protein. This will clear out most of the database.
+	2. Then, assure combinations are correct. A query will specify groups,
+	each with their atoms. Atoms specify the other atoms they connect to.
+
+To find potentials in (1), do this:
+
+	1. Go through each link individually, and find all that match it. Store
+	the results of each link.
+	2. The only actual candidates are those PDB IDs returned by all queries.
+
+To find combinations in (2), do this:
+
+	1. 	 
